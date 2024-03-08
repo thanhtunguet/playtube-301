@@ -1,0 +1,1 @@
+UPDATE `langs` SET `vietnamese` = 'thất vệ' WHERE `lang_key` = 'qiwi';

@@ -1,0 +1,5 @@
+ALTER TABLE `langs` CHANGE `english` `english` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `english` = 'E-mail not exist' WHERE `lang_key` = 'email_not_exist';
+UPDATE `langs` SET `english` = 'Published in' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `english` = 'We have renew your membership' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `english` = 'Your membership is ended' WHERE `lang_key` = 'pro_ended';

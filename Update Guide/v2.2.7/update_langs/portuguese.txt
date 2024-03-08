@@ -1,0 +1,1 @@
+UPDATE `langs` SET `portuguese` = 'Valor de valor inválido, pedido mínimo de saque é:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

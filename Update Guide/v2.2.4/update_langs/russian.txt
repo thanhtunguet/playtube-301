@@ -1,0 +1,6 @@
+ALTER TABLE `langs` CHANGE `russian` `russian` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `russian` = 'Вы уверены, что хотите удалить это действие? Это действие нельзя отменить.' WHERE `lang_key` = 'delete_activity_confirmation';
+UPDATE `langs` SET `russian` = 'отписался от вашего плейлиста' WHERE `lang_key` = 'unsubscribed_u_playlist';
+UPDATE `langs` SET `russian` = 'Опубликовано в' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `russian` = 'Мы продлили ваше членство' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `russian` = 'Ваше членство закончилось' WHERE `lang_key` = 'pro_ended';

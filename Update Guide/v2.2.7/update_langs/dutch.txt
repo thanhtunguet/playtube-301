@@ -1,0 +1,1 @@
+UPDATE `langs` SET `dutch` = 'Ongeldige bedragwaarde, minimum opnameverzoek is:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

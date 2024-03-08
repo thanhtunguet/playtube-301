@@ -1,0 +1,1 @@
+UPDATE `langs` SET `indonesian` = 'Nilai jumlah tidak valid, permintaan penarikan minimum adalah:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

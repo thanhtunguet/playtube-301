@@ -1,0 +1,1 @@
+UPDATE `langs` SET `chinese` = '金额值无效，最低提款要求为：' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

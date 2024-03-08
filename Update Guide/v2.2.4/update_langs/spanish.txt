@@ -1,0 +1,4 @@
+ALTER TABLE `langs` CHANGE `spanish` `spanish` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `spanish` = 'Publicado en' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `spanish` = 'Hemos renovado tu membresía' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `spanish` = 'Su membresía ha terminado' WHERE `lang_key` = 'pro_ended';

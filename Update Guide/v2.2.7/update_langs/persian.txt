@@ -1,0 +1,1 @@
+UPDATE `langs` SET `persian` = 'مقدار مبلغ نامعتبر است، حداقل درخواست برداشت عبارت است از:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

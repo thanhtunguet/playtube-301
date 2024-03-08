@@ -1,0 +1,6 @@
+ALTER TABLE `langs` CHANGE `dutch` `dutch` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `dutch` = 'E-mailadres bestaat niet' WHERE `lang_key` = 'email_not_exist';
+UPDATE `langs` SET `dutch` = 'Uw advertenties worden niet meer weergegeven zodra u dit bedrag heeft bereikt.' WHERE `lang_key` = 'your_ads_will_stop';
+UPDATE `langs` SET `dutch` = 'Gepubliceerd in' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `dutch` = 'We hebben uw lidmaatschap verlengd' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `dutch` = 'Je lidmaatschap is beëindigd' WHERE `lang_key` = 'pro_ended';

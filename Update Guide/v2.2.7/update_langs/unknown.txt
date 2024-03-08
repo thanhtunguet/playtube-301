@@ -1,0 +1,1 @@
+UPDATE `langs` SET `{unknown}` = 'Invalid amount value, minimum withdrawal request is:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

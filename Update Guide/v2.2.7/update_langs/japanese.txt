@@ -1,0 +1,1 @@
+UPDATE `langs` SET `japanese` = '金額の値が無効です。最低出金額は次のとおりです:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

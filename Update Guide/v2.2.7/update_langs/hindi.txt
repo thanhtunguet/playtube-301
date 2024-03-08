@@ -1,0 +1,1 @@
+UPDATE `langs` SET `hindi` = 'अमान्य राशि मूल्य, न्यूनतम निकासी अनुरोध है:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

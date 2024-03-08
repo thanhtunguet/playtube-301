@@ -1,0 +1,5 @@
+ALTER TABLE `langs` CHANGE `german` `german` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `german` = 'Gesamtausgabenlimit für Anzeigen' WHERE `lang_key` = 'ad_lifetime_limit';
+UPDATE `langs` SET `german` = 'Veröffentlicht in' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `german` = 'Wir haben Ihre Mitgliedschaft erneuert' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `german` = 'Ihre Mitgliedschaft ist beendet' WHERE `lang_key` = 'pro_ended';

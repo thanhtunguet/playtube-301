@@ -1,0 +1,6 @@
+ALTER TABLE `langs` CHANGE `arabic` `arabic` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `arabic` = 'البريد الإلكتروني غير موجود' WHERE `lang_key` = 'email_not_exist';
+UPDATE `langs` SET `arabic` = 'علق على نشاطك.' WHERE `lang_key` = 'commented_ur_actvity';
+UPDATE `langs` SET `arabic` = 'نشرت في' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `arabic` = 'لقد قمنا بتجديد عضويتك' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `arabic` = 'تم إنهاء عضويتك' WHERE `lang_key` = 'pro_ended';

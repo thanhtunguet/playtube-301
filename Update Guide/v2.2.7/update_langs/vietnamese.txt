@@ -1,0 +1,1 @@
+UPDATE `langs` SET `vietnamese` = 'Giá trị số tiền không hợp lệ, yêu cầu rút tiền tối thiểu là:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

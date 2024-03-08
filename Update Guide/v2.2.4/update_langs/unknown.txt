@@ -1,0 +1,4 @@
+UPDATE `langs` SET `{unknown}` = 'E-mail not exist' WHERE `lang_key` = 'email_not_exist';
+UPDATE `langs` SET `{unknown}` = 'Published in' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `{unknown}` = 'We have renew your membership' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `{unknown}` = 'Your membership is ended' WHERE `lang_key` = 'pro_ended';

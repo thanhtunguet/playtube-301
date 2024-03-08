@@ -1,0 +1,1 @@
+UPDATE `langs` SET `hebrew` = 'קיווי' WHERE `lang_key` = 'qiwi';

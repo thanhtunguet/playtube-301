@@ -1,0 +1,4 @@
+ALTER TABLE `langs` CHANGE `turkish` `turkish` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `turkish` = 'Yayınlanan' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `turkish` = 'Üyeliğinizi yeniledik' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `turkish` = 'Üyeliğiniz sona erdi' WHERE `lang_key` = 'pro_ended';

@@ -1,0 +1,1 @@
+UPDATE `langs` SET `russian` = 'Неверное значение суммы, минимальный запрос на вывод средств:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

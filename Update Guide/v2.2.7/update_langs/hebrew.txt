@@ -1,0 +1,1 @@
+UPDATE `langs` SET `hebrew` = 'ערך סכום לא חוקי, בקשת המשיכה המינימלית היא:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

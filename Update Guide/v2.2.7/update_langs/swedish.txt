@@ -1,0 +1,1 @@
+UPDATE `langs` SET `swedish` = 'Ogiltigt beloppsvärde, minsta begäran om uttag är:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

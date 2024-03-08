@@ -1,0 +1,1 @@
+UPDATE `langs` SET `filipino` = 'Di-wastong halaga ng halaga, ang minimum na kahilingan sa pag-withdraw ay:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

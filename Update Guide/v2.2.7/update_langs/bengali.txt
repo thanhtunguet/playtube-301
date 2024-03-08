@@ -1,0 +1,1 @@
+UPDATE `langs` SET `bengali` = 'অবৈধ পরিমাণের মান, ন্যূনতম প্রত্যাহারের অনুরোধ হল:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';

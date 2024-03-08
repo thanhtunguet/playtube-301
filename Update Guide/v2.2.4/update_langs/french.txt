@@ -1,0 +1,8 @@
+ALTER TABLE `langs` CHANGE `french` `french` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+UPDATE `langs` SET `french` = 'a ajouté une nouvelle vidéo' WHERE `lang_key` = 'added_new_video';
+UPDATE `langs` SET `french` = 'Aucun message n&#39;a été trouvé, dites bonjour !' WHERE `lang_key` = 'no_messages_found_hi';
+UPDATE `langs` SET `french` = 'Aucun message n&#39;a été trouvé, veuillez choisir un canal pour discuter.' WHERE `lang_key` = 'no_messages_found_channel';
+UPDATE `langs` SET `french` = 'Supprimé de l&#39;historique' WHERE `lang_key` = 'removed_history';
+UPDATE `langs` SET `french` = 'Publié dans' WHERE `lang_key` = 'published_in';
+UPDATE `langs` SET `french` = 'Nous avons renouvelé votre adhésion' WHERE `lang_key` = 'pro_renew';
+UPDATE `langs` SET `french` = 'Votre adhésion est terminée' WHERE `lang_key` = 'pro_ended';

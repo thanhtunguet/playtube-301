@@ -1,0 +1,1 @@
+UPDATE `langs` SET `spanish` = 'Valor de monto no válido, la solicitud mínima de retiro es:' WHERE `lang_key` = 'invalid_amount_value_withdrawal';
